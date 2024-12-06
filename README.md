@@ -174,6 +174,7 @@ pip install pygame opencv-python librosa numpy langchain langchain_openai langch
 ### **2. Setup (设置)**:
 - Place the song file (e.g., `Dancing_D.wav`) in the `assets` folder as well.
 - Adjust any constants in the `config.py` file (e.g., `WINDOW_WIDTH`, `FPS`, `OUTPUT_FILE`) as needed.
+- Add .env with OPENAI_API_KEY
 
 ### **3. Running the Project (运行项目)**:
 To run the project, execute the `main.py` file:
