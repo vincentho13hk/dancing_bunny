@@ -1,0 +1,9 @@
+Phrase 1: Starts at 0.14s, lasts for 11.65s, beats: 16, tempo: 85.23 BPM, average energy: 0.0698.
+Phrase 2: Starts at 11.79s, lasts for 11.29s, beats: 16, tempo: 85.23 BPM, average energy: 0.1181.
+Phrase 3: Starts at 23.07s, lasts for 11.30s, beats: 16, tempo: 85.23 BPM, average energy: 0.0915.
+Phrase 4: Starts at 34.37s, lasts for 11.30s, beats: 16, tempo: 85.23 BPM, average energy: 0.0972.
+Phrase 5: Starts at 45.66s, lasts for 11.30s, beats: 16, tempo: 85.23 BPM, average energy: 0.1013.
+Phrase 6: Starts at 56.96s, lasts for 11.30s, beats: 16, tempo: 85.23 BPM, average energy: 0.1458.
+Phrase 7: Starts at 68.26s, lasts for 11.29s, beats: 16, tempo: 85.23 BPM, average energy: 0.1060.
+Phrase 8: Starts at 79.54s, lasts for 11.30s, beats: 16, tempo: 85.23 BPM, average energy: 0.1052.
+Phrase 9: Starts at 90.84s, lasts for 11.30s, beats: 16, tempo: 85.23 BPM, average energy: 0.0939.

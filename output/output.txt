@@ -1,0 +1,1 @@
+All animation sequences based on the music file have been successfully created and added to the `movements.json` file. The file is now finalized and ready for use.

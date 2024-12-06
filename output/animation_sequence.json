@@ -1,0 +1,370 @@
+[
+    {
+        "name": "walk to left",
+        "sequences": [
+            {
+                "actions": {
+                    "left_leg": {
+                        "action": "raise_left_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "right_leg": {
+                        "action": "lower_right_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "body": {
+                        "action": "move_horizontal",
+                        "params": {
+                            "delta_x": -30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "left_leg": {
+                        "action": "lower_left_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "right_leg": {
+                        "action": "raise_right_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "body": {
+                        "action": "move_horizontal",
+                        "params": {
+                            "delta_x": -30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "right_leg": {
+                        "action": "lower_right_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "body": {
+                        "action": "rest",
+                        "params": {}
+                    }
+                },
+                "duration": 0.703
+            }
+        ]
+    },
+    {
+        "name": "jump",
+        "sequences": [
+            {
+                "description": "Jump up",
+                "actions": {
+                    "body": {
+                        "action": "move_vertical",
+                        "params": {
+                            "jump_height": 50
+                        }
+                    },
+                    "left_arm": {
+                        "action": "raise_left_arm",
+                        "params": {
+                            "angle": -45
+                        }
+                    },
+                    "right_arm": {
+                        "action": "raise_right_arm",
+                        "params": {
+                            "angle": 45
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "description": "Jump down",
+                "actions": {
+                    "body": {
+                        "action": "move_vertical",
+                        "params": {
+                            "jump_height": -50
+                        }
+                    },
+                    "left_arm": {
+                        "action": "lower_left_arm",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "right_arm": {
+                        "action": "lower_right_arm",
+                        "params": {
+                            "angle": 0
+                        }
+                    }
+                },
+                "duration": 0.703
+            }
+        ]
+    },
+    {
+        "name": "Wave arms",
+        "sequences": [
+            {
+                "actions": {
+                    "left_arm": {
+                        "action": "raise_left_arm",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "right_arm": {
+                        "action": "lower_right_arm",
+                        "params": {
+                            "angle": -30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "left_arm": {
+                        "action": "lower_left_arm",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "right_arm": {
+                        "action": "raise_right_arm",
+                        "params": {
+                            "angle": 30
+                        }
+                    }
+                },
+                "duration": 0.703
+            }
+        ]
+    },
+    {
+        "name": "Walk to right",
+        "sequences": [
+            {
+                "actions": {
+                    "right_leg": {
+                        "action": "raise_right_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "left_leg": {
+                        "action": "lower_left_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "body": {
+                        "action": "move_horizontal",
+                        "params": {
+                            "delta_x": 30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "right_leg": {
+                        "action": "lower_right_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "left_leg": {
+                        "action": "raise_left_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "body": {
+                        "action": "move_horizontal",
+                        "params": {
+                            "delta_x": 30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "left_leg": {
+                        "action": "lower_left_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "body": {
+                        "action": "rest",
+                        "params": {}
+                    }
+                },
+                "duration": 0.703
+            }
+        ]
+    },
+    {
+        "name": "Jump around",
+        "sequences": [
+            {
+                "actions": {
+                    "body": {
+                        "action": "move_vertical",
+                        "params": {
+                            "jump_height": 50
+                        }
+                    },
+                    "left_leg": {
+                        "action": "raise_left_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "right_leg": {
+                        "action": "raise_right_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "body": {
+                        "action": "move_vertical",
+                        "params": {
+                            "jump_height": -50
+                        }
+                    },
+                    "left_leg": {
+                        "action": "lower_left_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "right_leg": {
+                        "action": "lower_right_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    }
+                },
+                "duration": 0.703
+            }
+        ]
+    },
+    {
+        "name": "Wave legs",
+        "sequences": [
+            {
+                "actions": {
+                    "left_leg": {
+                        "action": "raise_left_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "right_leg": {
+                        "action": "lower_right_leg",
+                        "params": {
+                            "angle": -30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "left_leg": {
+                        "action": "lower_left_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "right_leg": {
+                        "action": "raise_right_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    }
+                },
+                "duration": 0.703
+            }
+        ]
+    },
+    {
+        "name": "Walk in place",
+        "sequences": [
+            {
+                "actions": {
+                    "right_leg": {
+                        "action": "raise_right_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    },
+                    "left_leg": {
+                        "action": "lower_left_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "right_leg": {
+                        "action": "lower_right_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "left_leg": {
+                        "action": "raise_left_leg",
+                        "params": {
+                            "angle": 30
+                        }
+                    }
+                },
+                "duration": 0.703
+            },
+            {
+                "actions": {
+                    "left_leg": {
+                        "action": "lower_left_leg",
+                        "params": {
+                            "angle": 0
+                        }
+                    },
+                    "right_leg": {
+                        "action": "rest",
+                        "params": {}
+                    }
+                },
+                "duration": 0.703
+            }
+        ]
+    }
+]

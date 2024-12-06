@@ -1,0 +1,9 @@
+pygame==2.3.0
+opencv-python==4.7.0.72
+librosa==0.10.0
+numpy==1.23.5
+langchain==0.0.147
+langchain_openai==0.0.45
+langchain_core==0.0.78
+langgraph==0.0.7
+pydantic==1.10.5
